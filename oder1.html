@@ -1,0 +1,47 @@
+<!<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="oder1.css" />
+  </head>
+  <body>
+    <!-- Content -->
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">Our products</a>
+        </div>
+        <div class="header__menu">
+          <div class="header__cart-orders" onclick="goToOrders()">Orders</div>
+          <div class="header__cart-count" onclick="renderOrderData()">0</div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- <div class="buttons">
+        <button class="button button--facility">Facility</button>
+        <button class="button button--service">Service</button>
+      </div> -->
+
+      <div class="search">
+        <input
+          type="text"
+          class="search__input"
+          placeholder="Search..."
+          oninput="handleInputChange(this.value)"
+        />
+      </div>
+    </main>
+
+    <script src="oder2.js"></script>
+    <script src="oder1.js"></script>
+  </body>
+</html>
